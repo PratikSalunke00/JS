@@ -1,5 +1,4 @@
 //** Template Literals **
-
 // let a=10;
 // let b=5;
 // // let output="The addition is :" + (a+b) + "Rupees.";
@@ -33,13 +32,13 @@
 // console.log("a++=" , a++);
 // console.log("a=" , a);
 
-// console.log("a--=" , a--); 
+// console.log("a--=" , a--);
 // console.log("a=" , a);
 
-// console.log("--a=" , --a); 
+// console.log("--a=" , --a);
 // console.log("a=" , a);
 
-// console.log("++a=" , ++a); 
+// console.log("++a=" , ++a);
 // console.log("a=" , a);
 //... ... ... ... ... ... ... ... ... ... ... ... ...
 
@@ -72,7 +71,8 @@
 // console.log(age!=18);
 //... ... ... ... ... ... ... ... ... ... ... ... ...
 
-//**** Conditional Satement **** 
+
+//**** Conditional Satement ****
 
 //** if Statement **
 // console.log("Before my if  Statement");
@@ -97,7 +97,6 @@
 // let color ="red";
 // // let color ="yellow";
 // // let color ="green";
-
 // if(color === "red"){
 //     console.log("Stop! Light color is red");
 // }
@@ -154,3 +153,29 @@
 //     console.log("Better luck next time!");
 // }
 //... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//**** Logical Opereator ****
+
+//** Logical AND && **
+// let marks =85;
+// if(marks>=33 && marks >=80){
+//     console.log("Pass");
+//     console.log("O");
+// }
+//... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Logical OR || **
+// let marks =75;
+// if(marks>=33 || marks >=80){
+//     console.log("Pass");
+//     console.log("O");
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Logical NOT ! **
+// let  marks = 75;
+// if((marks > 33 && marks <= 80) || !false){
+//     console.log("Pass");
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...

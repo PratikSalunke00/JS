@@ -9,10 +9,10 @@
 // isFollow="true";
 // console.log(isFollow);
 
-// fullname = "Pratik Salunke";
-// // fullname = 24;
+// fullnameame = 24;
 // // console.log(fullname);
-// let fullName="Pratik Salunke";
+// let fullN = "Pratik Salunke";
+// // fullname="Pratik Salunke";
 // // console.log(fullName);
 
 // const PI=3.14;
