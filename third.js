@@ -227,3 +227,18 @@
 //         console.log("Wrong day !");
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//**** Alert and Prompt Statement ****
+
+//** alert Statement **
+// alert("something is wrong!");
+// console.log("this is a simple page");
+// // console.error("this is a error msg");
+// // console.warn("this is a warn msg");
+
+//** promt Statement **
+// prompt("enter your name");
+// let name = prompt ("enter your name");
+// console.log(name);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
