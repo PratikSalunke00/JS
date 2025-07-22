@@ -242,3 +242,13 @@
 // let name = prompt ("enter your name");
 // console.log(name);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//**** String Metod ****
+
+//** str.trim method **
+// let msg="    hellow  ";
+// afterTrim = msg.trim();
+// console.log(afterTrim);   OR
+// let password = prompt("set your password");
+// console.log(password.trim());
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
