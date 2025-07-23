@@ -232,7 +232,7 @@
 //**** Alert and Prompt Statement ****
 
 //** alert Statement **
-// alert("something is wrong!");
+// alert("something is wrong!"); 
 // console.log("this is a simple page");
 // // console.error("this is a error msg");
 // // console.warn("this is a warn msg");
@@ -245,10 +245,23 @@
 
 //**** String Metod ****
 
-//** str.trim method **
+//** str.trim() method **
 // let msg="    hellow  ";
 // afterTrim = msg.trim();
 // console.log(afterTrim);   OR
 // let password = prompt("set your password");
 // console.log(password.trim());
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** str.toUpperCase() and str.toLowerCase method **
+// let king = "Virat Kohli"
+// console.log(king.toUpperCase());
+// console.log(king.toLowerCase());
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//*** String methods with argument ***
+
+// ** indexOf("") method **
+// let love = "tmkoc";
+// // console.log(love.indexOf("m"));
+// console.log(love.indexOf("h"));
