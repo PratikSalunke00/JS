@@ -1,4 +1,4 @@
-//** Template Literals **
+//*** Template Literals ***
 // let a=10;
 // let b=5;
 // // let output="The addition is :" + (a+b) + "Rupees.";
@@ -180,7 +180,6 @@
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
-
 //** switch Statement **
 // let color="red";
 // switch(color){
@@ -243,6 +242,7 @@
 // console.log(name);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
+
 //**** String Metod ****
 
 //** str.trim() method **
@@ -265,3 +265,33 @@
 // let love = "tmkoc";
 // // console.log(love.indexOf("m"));
 // console.log(love.indexOf("h"));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+// ** slice("") method **
+// let king = "virat";
+// console.log(king.slice(0 , king.length));
+// console.log(king.slice(1 , 4));
+// console.log(king.slice(-1)); //5(length of string) -1 => 4 (4th index position)
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+// ** replace("") method **
+// let king = "virat";
+// console.log(king);
+// console.log(king.replace("t" , "j"));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+// ** replace("") method **
+// let king = "virat";
+// console.log(king);
+// console.log(king.repeat(8));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//*** Method Chaining ***
+// let king="          virat kohli           ";
+// let nowking = king.trim();
+// console.log("after trim : ", nowking);
+// nowking = nowking.toUpperCase();
+// console.log("after uppercase : ", nowking);
+// let nowking = king.trim().toUpperCase();
+// console.log(nowking);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
