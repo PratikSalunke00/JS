@@ -280,7 +280,7 @@
 // console.log(king.replace("t" , "j"));
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
-// ** replace("") method **
+// ** repeat("") method **
 // let king = "virat";
 // console.log(king);
 // console.log(king.repeat(8));
@@ -295,3 +295,32 @@
 // let nowking = king.trim().toUpperCase();
 // console.log(nowking);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//**** Arrays ****
+
+//** vidualisation of array **
+// let player1 = "rajat";
+// let player2 = "virat";
+// let player3 = "salt";
+// console.log(player1 , player2 , player3);
+// let players = ["rajat" , "virat" , "salt"];
+// console.log(players);
+// console.log(players[2]);
+// console.log(players[4]);
+// console.log(players.length);
+// console.log(typeof players);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** creating array **
+// let marks = [99 , 85 , 95 , 65 , 56];
+// console.log(marks);
+// let names = ["virat" , "rajat", "phill"];
+// console.log(names);
+// let mixed = ["josh" , 76 , 9.8];
+// console.log(mixed);
+// let empty = [];
+// console.log(empty);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** arrays are mutable **
