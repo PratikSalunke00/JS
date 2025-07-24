@@ -493,3 +493,15 @@
 //     console.log(i);
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetion **
+// To print the multiplication table for 5
+// for(let i=5; i<=50;i+=5){
+//     console.log(i);
+// }
+// let p = prompt("write your number");
+// p=parseInt(p);
+// for(let i=p; i<= p*10; i=i+p){
+//     console.log(i);
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
