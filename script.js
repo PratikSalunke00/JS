@@ -403,3 +403,47 @@
 // console.log(num);
 // console.log(num.sort()); //firt number convert into string and then sort
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Array references ***
+// let arr = ['a' , 'b' , 'c'];
+// let arrCopy = arr;
+// arr = arrCopy;
+// console.log(arr = arrCopy);
+// arr.push('d');
+// console.log(arr);
+// console.log(arrCopy);
+// arrCopy.pop();
+// console.log(arrCopy);
+// console.log(arr);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Constant Array ***
+// const arr = [1 , 2 , 3];
+// console.log(arr);
+// arr.push(4);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Nested Array ***
+// let nums = [ [1,2] , [4,4,2] , [6,7,6,8] , [9,8,4] ];
+// console.log(nums);
+// console.log(nums.length);
+// console.log(nums[2]);
+// console.log(nums[3].length);
+// console.log(nums[2][2]);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetion **
+//tic-tac-toe
+// let game = [['X',null,'0'] , ['X',null,'0'] , ['X',null,'0']];
+// console.log(game);
+// console.log(game[0]);
+// console.log(game[0][1]='0');
+// console.log(game[0]);
+// console.log(game);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
