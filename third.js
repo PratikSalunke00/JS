@@ -324,3 +324,11 @@
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
 //** arrays are mutable **
+// let players = ["rajat" , "virat" , "salt"];
+// console.log(players);
+// players[2]="tim";
+// console.log(players);
+// players[8]="romario";
+// console.log(players);
+// console.log(players.length);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
