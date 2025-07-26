@@ -505,3 +505,40 @@
 //     console.log(i);
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Nested for loop **
+// for(let i=1; i<=3; i++){
+//     console.log(`outer loop ${i}`);
+//     for(let j=1; j<=3; j++){
+//         console.log(j);
+//     }
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** while loop **
+// let i = 1;
+// while (i<=5){
+//     console.log(i);
+//     i++;
+// }
+// let i = 5;
+//  while(i>=1){
+//     console.log(i);
+//     i--;
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetion **
+//TO guess the favorite ipl team
+// const favoriteIplTeam = "RCB";
+// let guessIplTeam = prompt("Guess my favorite ipl team");
+// while((guessIplTeam != favoriteIplTeam) && (guessIplTeam != "quit")){
+//     console.log("wrong guess");
+//     guessIplTeam =prompt("please try again");
+// }
+// if(guessIplTeam == favoriteIplTeam){
+//     console.log("Yes , you are right ");
+// }else{
+//     console.log("you quit");
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
