@@ -231,7 +231,7 @@
 //**** Alert and Prompt Statement ****
 
 //** alert Statement **
-// alert("something is wrong!"); 
+// alert("something is wrong!");
 // console.log("this is a simple page");
 // // console.error("this is a error msg");
 // // console.warn("this is a warn msg");
@@ -532,9 +532,16 @@
 //TO guess the favorite ipl team
 // const favoriteIplTeam = "RCB";
 // let guessIplTeam = prompt("Guess my favorite ipl team");
-// while((guessIplTeam != favoriteIplTeam) && (guessIplTeam != "quit")){
-//     console.log("wrong guess");
-//     guessIplTeam =prompt("please try again");
+// // while((guessIplTeam != favoriteIplTeam) && (guessIplTeam != "quit")){
+// //     console.log("wrong guess");
+// //     guessIplTeam =prompt("please try again");
+// // } OR
+// while(guessIplTeam != favoriteIplTeam) {
+//     if(guessIplTeam == "quit"){
+//         console.log("you quit");
+//         break;
+//     }
+//     guessIplTeam = prompt ("try again");
 // }
 // if(guessIplTeam == favoriteIplTeam){
 //     console.log("Yes , you are right ");
@@ -542,3 +549,16 @@
 //     console.log("you quit");
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** break statement **
+// let i =1;
+// while (i<=5) {
+//     if(  i==3){
+//         break;
+//     }
+//     console.log(i);
+//     i++;
+// }
+// console.log("you used break keyword at 3");
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
