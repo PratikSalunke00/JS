@@ -562,3 +562,22 @@
 // console.log("you used break keyword at 3");
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
+
+//**** Loops with Arrays ****
+
+//** one example **
+// let fruits = ["mango", "apple", "banana", "litchi", "orange"];
+// for(let i=0; i<=fruits.length; i++){
+//     console.log(i, fruits[i]);
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Nestedd Loops with Nested Arrays **
+// let players = [["Virat", "Rajat", "Phill"], ["Josh", "Bhuvaneshwar", "Dayal"]];
+// for(let i=0; i<=players.length; i++) {
+//     console.log(i, players[i], players.length);
+//     for(let j=0; j<players[i].length; j++) {
+//         console.log(`j=${j}, ${players[i][j]}`);
+//     }
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
