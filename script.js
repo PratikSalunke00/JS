@@ -581,3 +581,25 @@
 //     }
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** for of loop ***
+
+//** one example **
+// let players = ["Virat", "Rajat", "Phill", "Josh", "Bhuvaneshwar", "Dayal"];
+// for(player of players) {
+//     console.log(player);
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Nested for of loop **
+// let players = [["Virat", "Rajat", "Phill"], ["Josh", "Bhuvaneshwar", "Dayal"]];
+// for(list of players) {
+//     for(player of list) {
+//         console.log(player);
+//     }
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//**** TO-Do app ****
