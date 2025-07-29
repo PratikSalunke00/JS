@@ -630,3 +630,79 @@
 //     req= prompt("please enter your request");
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//**** JS Object Literals ****
+
+// ** Practice example **
+// let player1 = ["Virat", 36, 973];
+// console.log(player);
+
+// let player = {
+//     name:"Virat",
+//     age:36,
+//     runs:973
+// };
+// console.log(player);
+
+// const player = {
+//     name:"Virat",
+//     age:36,
+//     runs:973
+// };
+// console.log(player);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetion **
+//TO creat an object literal for the properties of thread / twitter post which includes - 
+//username, content, likes, reposts, tags
+// const post  = {
+//     username: "@pratiksalunke682",
+//     content: "This post is for TMKOC",
+//     likes:200,
+//     reposts:5,
+//     tags:["@tmkocofficial", "@tmkocfans"]
+// };
+// console.log(post);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Get values og object **
+// const post  = {
+//     username: "@pratiksalunke682",
+//     content: "This post is for TMKOC",
+//     likes:200,
+//     reposts:5,
+//     tags:["@tmkocofficial", "@tmkocfans"]
+// };
+// console.log(post);
+// console.log(post.username);
+// console.log(post["content"]);
+
+// let prop = "reposts";
+// console.log(post[prop]);
+
+// const RCB = {
+//     1:"Rajat",
+//     2:"Phill",
+//     true: "paddical",
+//     null: "otherTeamMembers"
+// };
+// console.log(RCB[1]);  //here 1 is conveted into string
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** To add and update value of object literals **
+// const student = {
+//     name: "Virat",
+//     age: 36,
+//     runs: 973,
+//     city: "Delhi"
+// };
+// console.log(student);
+// console.log(student.city= "Bengaluru");
+// console.log(student.city);
+// console.log(student);
+// console.log(student.nickName= "Chiku");
+// console.log(student);
+// console.log(delete student.age);
+// console.log(student);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
