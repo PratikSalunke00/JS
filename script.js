@@ -723,7 +723,35 @@
 //         city: "Hyderabad"
 //     }
 // };
+// console.log(teamPlayer);
 // console.log(teamPlayer.virat);
 // console.log(teamPlayer.rajat.city);
 // console.log(teamPlayer.phill.format);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Array of Objects ***
+// const teamPlayer = [
+//     {
+//         name: "virat",
+//         format: "all",
+//         city: "Bengaluru"
+//     },
+//     {
+//         name: "rajat",
+//         format: "odi",
+//         city: "Delhi"
+//     },
+//     {
+//         name: "phill",
+//         format: "T20",
+//         city: "Hyderabad"
+//     }
+// ];
+// console.log(teamPlayer);
+// console.log(teamPlayer[0]);
+// console.log(teamPlayer[1].name);
+// console.log(teamPlayer[2].format);
+// console.log(teamPlayer[0].aura= "infinity");
+// console.log(teamPlayer);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
