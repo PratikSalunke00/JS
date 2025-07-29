@@ -706,3 +706,24 @@
 // console.log(delete student.age);
 // console.log(student);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Nested Objects or Object of Objects ***
+// const teamPlayer = {
+//     virat: {
+//         format: "all",
+//         city: "Bengaluru"
+//     },
+//     rajat: {
+//         format: "odi",
+//         city: "Delhi"
+//     },
+//     phill: {
+//         format: "T20",
+//         city: "Hyderabad"
+//     }
+// };
+// console.log(teamPlayer.virat);
+// console.log(teamPlayer.rajat.city);
+// console.log(teamPlayer.phill.format);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
