@@ -755,3 +755,37 @@
 // console.log(teamPlayer[0].aura= "infinity");
 // console.log(teamPlayer);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//**** Math Object ****
+
+//** Properties **
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.E);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Methods **
+// console.log(Math.abs(46));
+// console.log(Math.abs(-46));
+
+// console.log(Math.pow(2,4));
+// console.log(Math.pow(4,3));
+
+// console.log(Math.floor(5));
+// console.log(Math.floor(5.5));
+// console.log(Math.floor(5.99999));
+// console.log(Math.floor(-5));
+// console.log(Math.floor(-5.5));
+
+// console.log(Math.ceil(5));
+// console.log(Math.ceil(5.5));
+// console.log(Math.ceil(5.99999));
+// console.log(Math.ceil(-5));
+// console.log(Math.ceil(-5.5));
+
+// console.log(Math.random());
+// console.log(Math.random());
+// console.log(Math.random());
+// console.log(Math.random());
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
