@@ -838,3 +838,50 @@
 //     }
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//**** Function ****
+
+//** some examples **
+// function hello() {
+//     console.log("After 17 seasons of waiting, red color finally shines.");
+// }
+// hello();
+
+// function royalLoyal() {
+//     console.log("Red waited silently for 17 years. Now, it shines proudly.");
+//     console.log("Finally, the red color shines after 17 years.");
+// }
+// royalLoyal();
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetion **
+//To print a number fron 1 to 48 using function and loops
+// function print1to48() {
+//     for(let i=1; i<=48; i++) {
+//         console.log(i);
+//     }
+// }
+// print1to48();
+
+//To print person is adult or not
+// function isAdult() {
+//     let age = 18;
+//     if(age>=18) {
+//         console.log("Adult");
+//     } else {
+//         console.log("not adult");
+//     }
+// }
+// isAdult();
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//Create a function that prints a poem.
+// function printPoem() {
+//     console.log("Finally, the red begins to shine,");
+//     console.log("Seventeen years, now it’s our time.");
+//     console.log("Cheers erupt, the wait is done,");
+//     console.log("RCB rises — we’ve finally won! ❤️💚");
+// }
+// printPoem();
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
