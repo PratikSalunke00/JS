@@ -855,7 +855,7 @@
 // royalLoyal();
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
-//** Practice Quetion **
+//** Practice Quetions **
 //To print a number fron 1 to 48 using function and loops
 // function print1to48() {
 //     for(let i=1; i<=48; i++) {
@@ -876,7 +876,7 @@
 // isAdult();
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
-//Create a function that prints a poem.
+//To create a function that prints a poem.
 // function printPoem() {
 //     console.log("Finally, the red begins to shine,");
 //     console.log("Seventeen years, now it’s our time.");
@@ -884,4 +884,34 @@
 //     console.log("RCB rises — we’ve finally won! ❤️💚");
 // }
 // printPoem();
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//To createe a function to roll a dice & always display the value of the dice (1 to 6).
+// function rollDice() {
+//     let random = Math.floor(Math.random() * 6) + 1;
+//     console.log(random);
+// }
+// rollDice();
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Functions with Arguments **
+// function printName(name) {
+//     console.log(name);
+// }
+// printName("Virat Kohli");
+    
+// function printInfo(name, age) {
+//    console.log(`${name}'s age is ${age}`);
+// }
+// printInfo("Pratik", 20);
+// printInfo("Rajat", 24);
+// printInfo("Altamash");
+// printInfo(28);
+
+// function sum(a, b) {
+//     console.log(a+b);
+// }
+// sum(1,2);
+// sum(16,2);
+// sum(8,2);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
