@@ -666,7 +666,7 @@
 // console.log(post);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
-//** Get values og object **
+//** Get values of object **
 // const post  = {
 //     username: "@pratiksalunke682",
 //     content: "This post is for TMKOC",
@@ -788,4 +788,53 @@
 // console.log(Math.random());
 // console.log(Math.random());
 // console.log(Math.random());
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Random Integer **
+// To generate random number from 0 to 10
+// let rnum = Math.random();
+// console.log(rnum);
+// rnum = rnum *10;
+// console.log(rnum);
+// rnum = Math.floor(rnum);
+// console.log(rnum);
+
+// let rnum = Math.floor(Math.random()*10) + 1;  //+1 is for to generate 10
+// console.log(rnum);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetion **
+//To generate random number from 1 to 100
+// let rnum = Math.floor(Math.random() * 100 )+ 1;
+// console.log(rnum);
+
+//To generate random number from 1 to 5
+// let rnum = Math.floor(Math.random()* 5)+ 1;
+// console.log(rnum);
+
+//To generate random number from 21 to 25
+// let rnum = Math.floor(Math.random()* 5)+ 21;
+// console.log(rnum);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Number Guessing Game **
+// User enters a max number & then tries to guess a random generated number between 1 to max.
+// const max = prompt("Enter the max number");
+// const random = Math.floor(Math.random() * max) + 1;
+// let guess = prompt("guess the number");
+// while(true) {
+//     if(guess == "quit") {
+//         console.log("user quit");
+//         break;
+//     }
+
+//     if(guess == random) {
+//         console.log("you are right! congrats!! random number was" , random);
+//         break;
+//     } else if(guess < random) {
+//         guess = prompt("hint: your guess was small. please try again");
+//     } else {
+//         guess = prompt("hint: your guess was large. please try again");
+//     }
+// }
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
