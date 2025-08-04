@@ -899,7 +899,7 @@
 //     console.log(name);
 // }
 // printName("Virat Kohli");
-    
+
 // function printInfo(name, age) {
 //    console.log(`${name}'s age is ${age}`);
 // }
@@ -1074,6 +1074,7 @@
 // multipleGreet(greet,  10);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
+
 //*** Higher order function (Returns) ***
 // let request = "odd";  // If it even then 'else if' block execute
 // function oddOrevenFactory(request) {
@@ -1094,3 +1095,41 @@
 // func(7);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
+
+//*** Methods ***
+// const calculator = {
+//     num: 18,
+//     add: function (a, b) {
+//         return a + b;
+//     },
+//     sub: function (a, b) {
+//         return a - b;
+//     },
+//     mul: function (a, b) {
+//         return a * b;
+//     }
+// }
+// console.log(calculator);
+// console.log(calculator.add(18,18));
+// console.log(calculator.sub(1,18));
+// console.log(calculator.mul(18,8));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Methods Shorthand **
+// const calculator = {
+//     num: 18,
+//     add(a, b) {
+//         return a + b;
+//     },
+//     sub(a, b) {
+//         return a - b;
+//     },
+//     mul(a, b) {
+//         return a * b;
+//     }
+// }
+// console.log(calculator);
+// console.log(calculator.add(18,18));
+// console.log(calculator.sub(1,18));
+// console.log(calculator.mul(18,8));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
