@@ -1059,3 +1059,16 @@
 // // sum(2,3);
 // console.log(sum(2,3));  // Because function's value is stored in variable
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Higher order function ***
+// function multipleGreet(func, count) {
+//     for(let i=1; i<=count; i++) {
+//         func();
+//     }
+// }
+// let greet = function() {
+//     console.log("Virat Kohli");
+// }
+// multipleGreet(greet,  10);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
