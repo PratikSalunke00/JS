@@ -1004,3 +1004,58 @@
 // calSum(1,2); // it prints sum
 // console.log(sum);  // it gives error like sum is not defined
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Block scope **
+// {
+//     let a = 2;
+//     var b = 4;
+//     const c = 65;
+// }
+// // console.log(a);
+// console.log(b);
+// // console.log(c);
+
+// for(let i=1; i<=5; i++) {
+//     console.log(i);
+// }
+// console.log(i);  // It gives error like i is not defined
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Lexical scope **
+// function outerFunc() {
+//     let x = 5;
+//     let y = 4;
+//     function innerFunc() {   //Function scope
+//         let a = 20;  // It will not access  
+//         console.log(x);
+//         console.log(y);
+//     }
+//     // console.log(a);  // It will gives error like a is not defined
+//     innerFunc();
+// }
+// outerFunc();
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetions **
+// What will be the output
+// let greet = "hello";
+// function changeGreet() {
+//     let greet = "namaste";
+//     console.log(greet);
+//     function innerGreet() {
+//         console.log(greet);
+//     }
+//     // innerGreet();
+// }
+// console.log(greet);
+// changeGreet();
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Function Expressions ***
+// const sum = function(a,b) {
+//     return a + b;
+// }
+// // sum(2,3);
+// console.log(sum(2,3));  // Because function's value is stored in variable
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
