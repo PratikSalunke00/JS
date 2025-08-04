@@ -1056,8 +1056,8 @@
 // const sum = function(a,b) {
 //     return a + b;
 // }
-// // sum(2,3);
-// console.log(sum(2,3));  // Because function's value is stored in variable
+// sum(2,3);
+// console.log(sum(2,3));
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
 
@@ -1070,5 +1070,27 @@
 // let greet = function() {
 //     console.log("Virat Kohli");
 // }
+// greet();
 // multipleGreet(greet,  10);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//*** Higher order function (Returns) ***
+// let request = "odd";  // If it even then 'else if' block execute
+// function oddOrevenFactory(request) {
+//     if(request == "odd") {
+//         return function(n) {
+//             console.log(!(n%2 == 0));
+//         }
+//     } else if(request == "even") {
+//         return function(n) {
+//             console.log(n%2 == 0);
+//         }
+//     } else {
+//         console.log("Wrong request");
+//     }
+// }
+// console.log(request);
+// let func = oddOrevenFactory(request);
+// func(7);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
