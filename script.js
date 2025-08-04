@@ -915,3 +915,92 @@
 // sum(16,2);
 // sum(8,2);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetions **
+//To create a Function that give us the average of 3 nummbers
+// function calAvg(a, b, c) {
+//    let avg = (a+b+c) / 3;
+//    console.log(avg);
+// }
+// calAvg(2,4,6);
+// console.log(calAvg);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//To create a Function that prints the multiplication table of a number
+// function printTable(n) {
+//     for(let i=n; i<=n*10; i+=n ) {
+//         console.log(i);
+//     }
+// }
+// printTable(6);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** return keyword ***
+// function sum(a, b) {
+//     return a+b;
+// }
+// let s = sum(1,2);
+// console.log(s);
+// console.log( sum(8,2));
+// console.log(sum(sum(1,2), 3));
+
+// function isAdult(age) {
+//     if(age >= 18) {
+//         return "adult";
+//     } else {
+//         return "not adult";
+//     }
+// }
+// isAdult(55);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+// function isAdult(age) {
+//     if(age >=18) {
+//         return "adult";
+//     } else {
+//         return "not adult";
+//     }
+// }
+// isAdult(9);
+// let rvalue = isAdult(9);
+// console.log(rvalue);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetions **
+//To create s Function thet retuurns the sum of nnumbers from 1 to n.
+// function getSum(n) {
+//     let sum  = 0;
+//     for(let i=1; i<=n; i++) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+// let mySum = getSum(5);
+// console.log(mySum);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//To create a Function that returns the concatenation  of all strings in an array.
+// let str = ["hi", "hello", "bye", "!"];
+// function concat(str) {
+//     let result = "";
+//     for(let i=0; i<=str.length; i++) {
+//         result += str[i];
+//     }
+//     return result;
+// }
+// let myConcat = concat(str);
+// console.log(myConcat);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Scope in JS ***
+
+//** Function scope **
+// function calSum(a,b) {
+//     let sum = a+b;
+//     console.log(sum);
+// }
+// calSum(1,2); // it prints sum
+// console.log(sum);  // it gives error like sum is not defined
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
