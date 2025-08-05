@@ -1196,9 +1196,25 @@
 
 //*** Set Timeout ***
 // console.log("Finally,"); 
-
 // setTimeout( () => {
 //     console.log("after 17 years");
 // }, 1600);
 // console.log("the red color shines");
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Set Interval ***
+console.log("Finally,"); 
+let id = setInterval( () => {
+    console.log("after 17 years");
+}, 1600);
+console.log("the red color shines");
+console.log(id);
+
+let id2 = setInterval( () => {
+    console.log("Taarak Mehta Ka Ooltah Chashmah");
+}, 1600);
+console.log(id2);
+
+clearInterval(id);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
