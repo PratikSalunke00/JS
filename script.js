@@ -1186,3 +1186,9 @@
 // };
 // console.log(pow(2, 2));
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Implicit return in Arrow functions ***
+// const mul = (a, b) => (a * b);
+// console.log(mul);
+// console.log(mul(4,6));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
