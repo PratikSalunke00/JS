@@ -1133,7 +1133,7 @@
 // console.log(calculator.sub(1,18));
 // console.log(calculator.mul(18,8));
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
- 
+
 
 //*** 'this' keyword ***
 // const student = {
@@ -1204,17 +1204,51 @@
 
 
 //*** Set Interval ***
-console.log("Finally,"); 
-let id = setInterval( () => {
-    console.log("after 17 years");
-}, 1600);
-console.log("the red color shines");
-console.log(id);
+// console.log("Finally,"); 
+// let id = setInterval( () => {
+//     console.log("after 17 years");
+// }, 1600);
+// console.log("the red color shines");
+// console.log(id);
 
-let id2 = setInterval( () => {
-    console.log("Taarak Mehta Ka Ooltah Chashmah");
-}, 1600);
-console.log(id2);
+// let id2 = setInterval( () => {
+//     console.log("Taarak Mehta Ka Ooltah Chashmah");
+// }, 1600);
+// console.log(id2);
 
-clearInterval(id);
+// clearInterval(id);
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** this with Arrow Functions ***
+// const student = {
+//     name: "Raja",
+//     marks: 96,
+//     prop: this, //global scope (window)
+//     getName: function () {
+//         console.log(this);
+//         return this.name;
+//     },
+//     getMarks: () => {
+//         console.log(this);  //Parent's scope
+//         return this.marks;
+//     },
+//     getInfo1: function () {
+//         setTimeout(() => {
+//             console.log(this);  //student
+//         }, 2000);
+//     },
+//     getInfo2: function () {
+//         setTimeout(function () {
+//             console.log(this);  //Window
+//         }, 2000);
+//     }
+// };
+// const a = 5; //global scope
+// console.log(a);
+// console.log(student);
+// console.log(student.getName());
+// console.log(student.getMarks());  //Not work for Arrow Function
+// console.log(student.getInfo1());
+// console.log(student.getInfo2());  
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
