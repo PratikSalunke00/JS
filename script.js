@@ -1166,3 +1166,23 @@
 // console.log("Virat Kohli");
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
+
+//*** Arrow Function ***
+// const sum = (a, b) => {
+//     console.log(a + b);
+// };
+// console.log(sum);
+// console.log(sum(4,4));
+
+// const cube = (n) => {
+//     return n * n * n;
+// };
+// console.log(cube(2));
+// let c = cube(6);
+// console.log(c);
+
+// const pow = (a, b) => {
+//     return a ** b;
+// };
+// console.log(pow(2, 2));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
