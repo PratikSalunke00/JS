@@ -1192,3 +1192,13 @@
 // console.log(mul);
 // console.log(mul(4,6));
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+
+//*** Set Timeout ***
+// console.log("Finally,"); 
+
+// setTimeout( () => {
+//     console.log("after 17 years");
+// }, 1600);
+// console.log("the red color shines");
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
