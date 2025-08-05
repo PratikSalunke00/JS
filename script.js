@@ -994,7 +994,7 @@
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
 
-//*** Scope in JS ***
+//**** Scope in JS ****
 
 //** Function scope **
 // function calSum(a,b) {
@@ -1132,4 +1132,21 @@
 // console.log(calculator.add(18,18));
 // console.log(calculator.sub(1,18));
 // console.log(calculator.mul(18,8));
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+ 
+
+//*** 'this' keyword ***
+// const student = {
+//     name: "abc",
+//     age:24,
+//     eng: 95,
+//     math: 93,
+//     phy: 85,
+//     getAvg() {
+//         console.log(this);
+//         let avg = (this.eng + this.math + this.phy) / 3;
+//         console.log(`${this.name} got average marks = ${avg}`);
+//     }
+// }
+// console.log(student.getAvg());
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
