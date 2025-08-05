@@ -1150,3 +1150,19 @@
 // }
 // console.log(student.getAvg());
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//*** try & catch ***
+// console.log("tmkoc");
+// console.log("tmkoc");
+// //let a = 5;
+// try {
+//     console.log(a);
+// } catch(e) {
+//     console.log("caught an error ... a is not defined");
+//     console.log(e);
+// }
+// console.log("Virat Kohli");
+// console.log("Virat Kohli");
+// console.log("Virat Kohli");
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
