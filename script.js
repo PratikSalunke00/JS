@@ -1036,7 +1036,7 @@
 // outerFunc();
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
 
-//** Practice Quetions **
+//** Practice Quetion **
 // What will be the output
 // let greet = "hello";
 // function changeGreet() {
@@ -1251,4 +1251,20 @@
 // console.log(student.getMarks());  //Not work for Arrow Function
 // console.log(student.getInfo1());
 // console.log(student.getInfo2());  
+// ... ... ... ... ... ... ... ... ... ... ... ... ...
+
+//** Practice Quetions **
+//Write an arrow function that returns the squre of a number 'n'
+// const squre = (n) => (n * n);
+// console.log(squre(6));
+
+//Write a function that prints "Hellow World" 5 times at intervals of 2s each.
+// let id = setInterval( () => {
+//     console.log("Finally, red color shines after 17 years");
+// }, 2000);
+
+// setTimeout( () => {
+//     clearInterval(id);
+//     console.log("clear interval ran");
+// }, 10000);
 // ... ... ... ... ... ... ... ... ... ... ... ... ...
