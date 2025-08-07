@@ -1305,3 +1305,39 @@
 //     console.log(player.runs);
 // });
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//** Map function **
+// let num = [1, 2, 3, 4];
+// let double = num.map(function(el) {
+//     return el*2;
+// });
+// console.log(double);  //OR
+
+// let double = num.map( (el) => {
+//     return el*2;
+// });
+// console.log(double);
+
+// let double = num.map( (el) => {
+// });
+// console.log(double);
+
+// let student = [
+//     {
+//         name: "Viraj",
+//         marks:973,
+//     },
+//     {
+//         name: "Rajat",
+//         marks:456,
+//     },
+//     {
+//         name: "Salt",
+//         marks: 434,
+//     },
+// ];
+// let gpa = student.map((el) => {
+//     return el.marks / 10;
+// });
+// console.log(gpa);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
