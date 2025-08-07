@@ -1373,3 +1373,51 @@
 // let TorF = arr.every((el) => el%2 != 0);
 // console.log(TorF);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//** Reduce method **
+// let nums = [1, 2, 3, 4];
+// let finalVal = nums.reduce((res,el) => {
+//     console.log(res); 
+//     return (res + el);
+// });
+// console.log(finalVal);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//** Practice Question **
+//Finding Maximum in an array
+// let arr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let max = -1;
+// for (let i = 0; i< arr.length; i++) {
+//     if (max < arr[i]) {
+//         max = arr[i];
+//     }
+// }
+// console.log(max);  //OR
+
+// let max = arr.reduce((max,el) => {
+//     if(max < el) {
+//         return el;
+//     } else {
+//         return max;
+//     }
+// });
+// console.log(max);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//check if all numbers in our array are multiiple of 10 or not 
+// let nums =  [10, 20, 30, 40, 50, 60];
+// let ans = nums.every((el) => el % 10 == 0);
+// console.log(ans);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//To create a function to fund the min number in an array
+// let nums = [10,20,30,40,50,60];
+// let min = nums.reduce((min,el) => {
+//     if(min<el) {
+//         return min;
+//     } else {
+//         return el;
+//     }
+// });
+// console.log(min);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
