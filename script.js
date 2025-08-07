@@ -1341,3 +1341,21 @@
 // });
 // console.log(gpa);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//** Filter fuction **
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let even = nums.filter((el) => {
+//     return el % 2 == 0;  //even -> true, odd -> false
+// });
+// console.log(even);
+
+// let odd = nums.filter((el) => {
+//     return !(el % 2 == 0);  //even -> true, odd -> false
+// });
+// console.log(odd);
+
+// let lfive = nums.filter((el) => {
+//     return el < 5;  //even -> true, odd -> false
+// });
+// console.log(lfive);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
