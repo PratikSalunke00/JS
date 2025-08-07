@@ -1267,4 +1267,41 @@
 //     clearInterval(id);
 //     console.log("clear interval ran");
 // }, 10000);
-// ... ... ... ... ... ... ... ... ... ... ... ... ...
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+//**** Array Methods ****
+
+//** forEach method **
+// let arr = [1, 2, 3, 4, 5,];
+// let print = function (el) {
+//     console.log(el);
+// };
+// arr.forEach(print);  //OR
+
+// arr.forEach(function (el) {
+//     console.log(el);
+// });  //or
+
+// arr.forEach((el) => {
+//     console.log(el);
+// });
+
+// let arr = [
+//     {
+//         name: "Virat",
+//         runs:973,
+//     },
+//     {
+//         name: "Rajat",
+//         runs:456,
+//     },
+//     {
+//         name: "Salt",
+//         runs: 434,
+//     },
+// ];
+// arr.forEach((player) => {
+//     console.log(player.runs);
+// });
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
