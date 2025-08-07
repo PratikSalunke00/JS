@@ -1445,3 +1445,22 @@
 // let newSum = sum(1);
 // console.log(newSum);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+//**** Spread ****
+
+//** Spread (Array Literals) **
+// let arr = [1, 2, 3, 4, 5, 6];
+// let newArray = [...arr];
+// console.log(arr);
+// console.log(newArray);
+
+// let chars = ["Hello,", "I", "am", "Pratik"];
+// let newChar = [...chars];
+// console.log(newChar);
+
+// let even = [2,4,6,8,10];
+// let odd = [1,3,5,7,9];
+// let nums = [...even , ...odd];
+// console.log(nums);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
