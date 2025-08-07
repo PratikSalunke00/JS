@@ -1359,3 +1359,17 @@
 // });
 // console.log(lfive);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//** Every method **
+// let arr = [2, 4, 6,];
+// let TorF = arr.every((el) => el%2 == 0);
+// console.log(TorF);
+
+// let arr = [2, 4, 6, 7, 8, 9];
+// let TorF = arr.every((el) => el%2 == 0);
+// console.log(TorF);
+
+// let arr = [1, 3, 7, 9];
+// let TorF = arr.every((el) => el%2 != 0);
+// console.log(TorF);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
