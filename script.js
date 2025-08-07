@@ -1421,3 +1421,27 @@
 // });
 // console.log(min);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+//*** Default Parameters  ***
+// function sum(a, b=4) {
+//     return a + b;  //only returned not print
+// }
+// // let newSum = sum(1,8);
+// let newSum = sum(1);  //default value is 4 for b
+// console.log(newSum);
+
+// function sum(a=54, b) {
+//     return a + b;  //only returned not print
+// }
+// // let newSum = sum(1,8);
+// let newSum = sum(1);  //a = 1, b = unefined
+// console.log(newSum);
+
+// function sum(b, a=54) {  //So a should be written after b
+//     return a + b;  //only returned not print
+// }
+// // let newSum = sum(1,8);
+// let newSum = sum(1);
+// console.log(newSum);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
