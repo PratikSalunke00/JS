@@ -1464,3 +1464,20 @@
 // let nums = [...even , ...odd];
 // console.log(nums);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//** Spread (Object Literals) **
+// const data= {
+//     email: "pratiksalunke3112@gmail.com" ,
+//     password: "abcd" ,
+// };
+// console.log(data);
+// const dataCopy = { ...data, id:123 , country: "India"};
+// console.log(dataCopy);
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// let obj1 = {...arr};
+// console.log(obj1);
+
+// let obj2 = {..."Virat Kohli"};
+// console.log(obj2);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
