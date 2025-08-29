@@ -1481,3 +1481,49 @@
 // let obj2 = {..."Virat Kohli"};
 // console.log(obj2);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+//**** Rest ****
+
+// function sum(...args) {
+//     for(let i=0; i<args.length; i++) {
+//         console.log("you give us:", args[i]);
+//     }
+// }
+// console.log(sum(1,2,3,4));
+
+// function min() {
+//     console.log(arguments);
+//     console.log(arguments.length);
+//     arguments.push(1);  //error
+// }
+// console.log(min(1, 2, 3, 4));
+
+// function sum(...args) {
+//     return args.reduce((sum,el) => sum + el);
+// }
+// console.log(sum(1,2,3,4,5,6,7,8));
+
+// function  min(...args) {
+//     return args.reduce((min, el) => {
+//         if (min > el) {
+//             return el;
+//         } else {
+//             return min;
+//         }
+//     });
+// }
+// console.log(min(1,2,3,4));
+
+// function  min(msg, ...args) {
+//     console.log(msg);
+//     return args.reduce((min, el) => {
+//         if (min > el) {
+//             return el;
+//         } else {
+//             return min;
+//         }
+//     });
+// }
+// console.log(min("Virat",1,2,3,4));
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
