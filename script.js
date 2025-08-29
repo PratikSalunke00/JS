@@ -1527,3 +1527,45 @@
 // }
 // console.log(min("Virat",1,2,3,4));
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+// **** Destructuring ****
+
+// let names = ["Virat", "Anushka" , "Rajat" , "Salt" , "Jitesh"];
+// // let winner = names[0];
+// // let runnerup = names[1];
+// // let secondrunnerup = names[2];
+
+// let [winner, runnerup, secondrunnerup, ...others] = names;
+// console.log(winner);
+// console.log(runnerup);
+// console.log(secondrunnerup);
+// console.log(others);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+// ** Destructuring for objects **
+// const student = {
+//     name: "Pratik",
+//     age:19,
+//     class:"ECE",
+//     subjects: ["hindi", "english", "marathi", "science"],
+//     username:"pratik_salunke84",
+//     password: "abd"
+// };
+// // let name = student.name;
+// // let username = student.username;
+// // console.log(name);
+// // console.log(username);
+
+// // let { name, username } = student;
+// // console.log(name);
+// // console.log(username);
+
+// let { name:n, username:u, password:p, city= "Bengaluru" } = student;
+// // console.log(name);
+// // console.log(username);
+// console.log(n);
+// console.log(u);
+// console.log(p);
+// console.log(city);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
