@@ -953,7 +953,6 @@
 //     }
 // }
 // isAdult(55);
-// ... ... ... ... ... ... ... ... ... ... ... ... ...
 
 // function isAdult(age) {
 //     if(age >=18) {
@@ -978,7 +977,6 @@
 // }
 // let mySum = getSum(5);
 // console.log(mySum);
-// ... ... ... ... ... ... ... ... ... ... ... ... ...
 
 //To create a Function that returns the concatenation  of all strings in an array.
 // let str = ["hi", "hello", "bye", "!"];
@@ -991,7 +989,6 @@
 // }
 // let myConcat = concat(str);
 // console.log(myConcat);
-// ... ... ... ... ... ... ... ... ... ... ... ... ...
 
 
 //**** Scope in JS ****
@@ -1402,13 +1399,11 @@
 //     }
 // });
 // console.log(max);
-// ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
 //check if all numbers in our array are multiiple of 10 or not 
 // let nums =  [10, 20, 30, 40, 50, 60];
 // let ans = nums.every((el) => el % 10 == 0);
 // console.log(ans);
-// ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
 //To create a function to fund the min number in an array
 // let nums = [10,20,30,40,50,60];
@@ -1420,7 +1415,6 @@
 //     }
 // });
 // console.log(min);
-// ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
 
 //*** Default Parameters  ***
@@ -1569,3 +1563,6 @@
 // console.log(p);
 // console.log(city);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+// **** DOM ****
