@@ -636,7 +636,7 @@
 
 // ** Practice example **
 // let player1 = ["Virat", 36, 973];
-// console.log(player);
+// console.log(player1);
 
 // let player = {
 //     name:"Virat",
@@ -1566,3 +1566,37 @@
 
 
 // **** DOM ****
+
+//** DOM Events **
+
+//* onclick (when an element is clicked) *
+// let btn = document.querySelector("button");
+// console.dir(btn);
+
+// btn.onclick = function () {
+//     console.log("button was clicked");
+//     alert("button was clicked");
+// }
+
+// function sayHello() {
+//     alert("Hello:");
+// }
+// btn.onclick = sayHello;
+
+// let btns = document.querySelectorAll("button");
+// for(btn of btns) {
+//     btn.onclick = sayHello;
+// }
+
+// function sayHello() {
+//     alert("Hello:");
+// }
+
+//* onmouseenter (when mouse eennters an element) *
+// let btns = document.querySelectorAll("button");
+// for(btn of btns) {
+//     btn.onmouseenter = function () {
+//         console.log("you entered a button");
+//     };
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
