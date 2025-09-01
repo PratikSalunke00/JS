@@ -1591,6 +1591,7 @@
 // function sayHello() {
 //     alert("Hello:");
 // }
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
 //* onmouseenter (when mouse eennters an element) *
 // let btns = document.querySelectorAll("button");
@@ -1599,6 +1600,7 @@
 //         console.log("you entered a button");
 //     };
 // }
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
 //* Event Listener *
 // let btns = document.querySelectorAll("button");
@@ -1620,11 +1622,9 @@
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
-
-//**** Activity **** 
+//* Activity * 
 // To generate a random color
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
-
 
 //* Evenet Listener for Element *
 // let p = document.querySelector("p");
@@ -1636,4 +1636,38 @@
 // box.addEventListener("mouseenter", function () {
 //     console.log("mouse inside box");
 // });
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//* this in Evenrt Listener *
+// let btn = document.querySelector("button");
+// let p = document.querySelector("p");
+// let h1 = document.querySelector("h1");
+// let h3 = document.querySelector("h3");
+
+// // btn.addEventListener("click", function () {
+// //     console.dir(this.innerText);
+// //     this.style.background = "blue";
+// // });
+// // p.addEventListener("click", function () {
+// //     console.dir(this.innerText);
+// //     this.style.background = "blue";
+// // });
+// // h1.addEventListener("click", function () {
+// //     console.dir(this.innerText);
+// //     this.style.background = "blue";
+// // });
+// // h3.addEventListener("click", function () {
+// //     console.dir(this.innerText);
+// //     this.style.background = "blue";
+// // });
+
+// function changeColor() {
+//     console.dir(this.innerText);
+//     this.style.background = "blue";
+// }
+
+// btn.addEventListener("click", changeColor);
+// p.addEventListener("click", changeColor);
+// h1.addEventListener("click", changeColor);
+// h3.addEventListener("click", changeColor);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
