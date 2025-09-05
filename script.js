@@ -1671,3 +1671,15 @@
 // h1.addEventListener("click", changeColor);
 // h3.addEventListener("click", changeColor);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//* Mouse Events *
+// let btn = document.querySelector("button");
+// btn.addEventListener("click", function (event) {  //Default argument
+//     console.log(event);
+//     console.log("button clicked");
+// });
+// btn.addEventListener("dblclick", function (event) {  //Default argument
+//     console.log(event);
+//     console.log("button clicked");
+// });
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
