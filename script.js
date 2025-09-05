@@ -1703,7 +1703,6 @@
 // });
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
-
 //** Practice Quetions **
 // let inp = document.querySelector("input");
 // inp.addEventListener("keydown", function(event){
@@ -1717,5 +1716,13 @@
 //     } else if (event.code == "ArrowRight"){
 //         console.log("character moves Right");
 //     }
+// });
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+//* Form Events *
+// let form = document.querySelector("form");
+// form.addEventListener("submit", function (event) {
+//     event.preventDefault();
+//     alert("form submitted");
 // });
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
