@@ -66,7 +66,7 @@
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
 
 
-// //**** Promises and Chaining ****
+// //**** Promises  ****
 // function saveToDatabase(data, success, failure) {
 //     let internetSpeed = Math.floor(Math.random() * 10) + 1; // 1 to 10
 //     if (internetSpeed > 4) {
@@ -94,3 +94,136 @@
 //     () => { console.log("failure: data saving failed , try again later") }
 // );
 // ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+//**** Promises and Chaining - Improved ****
+// function saveToDatabase(data) {
+//     return new Promise((resolve, reject) => {
+//         let internetSpeed = Math.floor(Math.random() * 10) + 1; // 1 to 10
+//         if (internetSpeed > 4) {
+//             resolve("data saved successfully");
+//         } else {
+//             reject("data saving failed , try again later");
+//         }
+
+//     })
+// }
+
+// saveToDatabase("my data");
+// ... ... ... ... ... ... ... ... ... ... ... ...  ...
+
+
+//**** then() & catch() ****
+// function saveToDatabase(data) {
+//     return new Promise((resolve, reject) => {
+//         let internetSpeed = Math.floor(Math.random() * 10) + 1; // 1 to 10
+//         if (internetSpeed > 4) {
+//             resolve("data saved successfully");
+//         } else {
+//             reject("data saving failed , try again later");
+//         }
+
+//     })
+// }
+
+// let request = saveToDatabase("my data");
+// request.then(() => {
+//     console.log("data saved successfully");
+//     console.log(request);
+// })
+// .catch(() => {
+// console.log("data saving failed , try again later");
+// console.log(request);
+// });
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....
+
+
+//**** Async Await ****
+// async function greet() {
+//     throw "An error occurred";
+//     return "hello world";
+// }
+
+// greet()
+// .then((result)=>{
+//     console.log("greeted successfully");
+//     console.log(result);
+// })
+// .catch((err)=>{
+//     console.log("greeting failed");
+//     console.log(err);
+// });
+
+// let demo = async () => {
+//     return 5;
+// };
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....
+
+
+//**** Async Await ***** 
+// // function getNumber() {
+// //     return new Promise((resolve, reject) => {
+// //         setTimeout(() => {
+// //             let num = Math.floor(Math.random() * 10) + 1; // 1 to 10
+// //             console.log(num);
+// //             resolve();
+// //         }, 1000);
+// //     });
+// // }
+
+// // async function demo() {
+// //     await getNumber();
+// //     await getNumber();  
+// //     await getNumber();
+// //     console.log("done");
+// // }
+
+// h1 = document.querySelector("h1");
+
+// function changeColor(color, delay) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             h1.style.color = color;
+//             resolve();
+//         }, delay);
+//     }); 
+// }
+// async function changeColors() {
+//     await changeColor("red", 1000);
+//     await changeColor("green", 1000);
+//     await changeColor("yellow", 1000);
+//     await changeColor("blue", 1000);
+//     await changeColor("orange", 1000);
+// }
+
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....
+
+
+ // Handling Rejection in Async Await ****
+// h1 = document.querySelector("h1");
+
+// function changeColor(color, delay) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             let num = Math.floor(Math.random() * 5) + 1; // 1 to 5
+//             if (num > 3) {
+//                 reject("Error: Unable to change color to " + color);
+//             }
+//             h1.style.color = color;
+//             console.log(`color changed to ${color}!`)
+//             resolve("color changed to " + color);
+//         }, delay);
+//     }); 
+// }
+// async function changeColors() {
+//     try {       
+//     await changeColor("red", 1000);
+//     await changeColor("green", 1000);
+//     await changeColor("yellow", 1000);
+//     await changeColor("blue", 1000);
+//     await changeColor("orange", 1000);
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....
