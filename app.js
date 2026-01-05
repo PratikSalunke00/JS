@@ -337,3 +337,24 @@
 
 // getImage();
 // ... ... ... ... ... ... ... ... ... ... ... ...  ....
+
+
+//**** Axios Library - Sending Header ****
+
+// const url = "https://icanhazdadjoke.com/";
+
+// async function getJoke() {
+//     try {
+//          let res = await axios.get(url, {
+//             headers: {
+//                 Accept: "application/json"
+//             }
+//          });    
+//          console.log(res.data.joke);
+//     } catch (error) {
+//         console.log("error is:", error);
+//     }       
+// }
+
+// getJoke();
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....
