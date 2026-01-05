@@ -253,3 +253,22 @@
 // console.log(jsonData);
 // console.log(typeof jsonData);
 // ... ... ... ... ... ... ... ... ... ... ... ...  ....        
+
+
+//**** Fetch API ****
+// let url = "https://catfact.ninja/fact";   
+// fetch(url)
+//     .then( (response) => {
+//         return response.json();
+//     })
+//     .then( (data) => {
+//         console.log(data);
+//         let fact = data.fact;
+//         console.log(fact);
+//         let p = document.querySelector("p");
+//         p.innerText = fact;
+//     })
+//     .catch( (error) => {
+//         console.log("error is:", error);
+//     });
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....
