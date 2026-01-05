@@ -227,3 +227,29 @@
 //     }
 // }
 // ... ... ... ... ... ... ... ... ... ... ... ...  ....
+
+
+//**** JSON and API Calls ****
+
+// JSON data to JSON Object conversion
+// let jsonRes = `{
+//     "name": "John Doe",
+//     "age": 30,
+//     "city": "New York"
+// }`;
+
+// let validJson = JSON.parse(jsonRes);
+// console.log(validJson);
+// console.log(validJson.name);
+
+// // JSON Object to JSON data conversion
+// let jsonObj = {
+//     name: "Jane Doe",
+//     age: 25,
+//     city: "Los Angeles"
+// };
+
+// let jsonData = JSON.stringify(jsonObj);
+// console.log(jsonData);
+// console.log(typeof jsonData);
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....        
