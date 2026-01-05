@@ -311,3 +311,29 @@
 
 // getFacts();
 // ... ... ... ... ... ... ... ... ... ... ... ...  ....
+
+
+//**** Axios Library - Dog API ****
+
+// let btn = document.querySelector("button");
+// let url2 = "https://dog.ceo/api/breeds/image/random";
+
+// btn.addEventListener("click", async () => {
+//     let imageUrl = await getImage();
+//     console.log(imageUrl);
+//     let img = document.querySelector("#result");
+//     img.setAttribute("src" , imageUrl);
+// });
+
+// async function getImage() {
+//     try {
+//          let res = await axios.get(url2);
+//          return res.data.message;
+//     } catch (error) {
+//         console.log("error is:", error);
+//         return "Error fetching image";
+//     }
+// }
+
+// getImage();
+// ... ... ... ... ... ... ... ... ... ... ... ...  ....
